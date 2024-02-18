@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+
+    <script>
+        document.write("from head as internal <br>");
+        //inline js code is onload which is written in the body
+        //but naturally we will have script tag at the end
+    </script>
+</head>
+<!-- <body onload="alert('hello')"> -->
+<body>
+    <script>//internal js code
+        console.log("hello");
+        //alert("kamrul");//a prompt comes when the web page starts
+        //semi colon is not must but may show error if not given
+        document.write("from write");//show output in html
+        document.write("<h1> by formating </h1>"); //this formats the text
+
+    </script>
+    <!-- linking external file of js -->
+    <script src="index.js"></script>
+    
+</body>
+</html>
