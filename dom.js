@@ -99,4 +99,7 @@ var sibling = document.previousElementSibling
 //dont work but why
 //traversing is recomended
 
+//image slider??????
+
+
 
